@@ -19,6 +19,10 @@ const startchanging = function (){
         document.body.style.backgroundColor = rColor()
 
     }
+    //Extra lines to hide the button
+    document.querySelector("#start").style.display = "none";
+    document.querySelector("#stop").style.display = "none";
+
 }
 
 const stopchanging = function (){
